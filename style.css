@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: black;
+  height: 22px;
+  border-top: 1.5px solid rgb(211, 123, 0);
+  display: flex;
+  font-size: 3px;
+}
+#button-one {
+  color: aliceblue;
+  background-color: rgb(131, 85, 0);
+  width: 40px;
+  height: 13px;
+  border: 1px solid rgb(131, 85, 0);
+  border-radius: 4px;
+  font-size: 4.5px;
+  margin: 3.5px 0px 4px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search {
+  margin: 3px 0px 4px 8px;
+}
+.link {
+  color: aliceblue;
+  display: flex;
+  font-size: 5px;
+  margin: 7px 28px 0px 0px;
+}
+.one {
+  padding-left: 190px;
+  font-size: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.two,
+.three,
+.fore,
+.five {
+  padding-left: 8px;
+  font-size: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
