@@ -31,7 +31,8 @@ header {
   margin: 10px 28px 0px 0px;
 }
 .p-one {
-  padding-left: 308px;
+  padding-top: 3px;
+  padding-left: 290px;
   font-size: 6.5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -39,6 +40,7 @@ header {
 .p-three,
 .p-fore,
 .p-five {
+  padding-top: 3px;
   padding-left: 20px;
   font-size: 6.5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -61,7 +63,17 @@ body {
   height: 18px;
   margin: 10px 0px 0 8px;
 }
-
+#top {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border: 0.5px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  font-size: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 60px;
+  height: 14px;
+  margin-left: 14px;
+}
 .divsearch2 {
   display: flex;
   margin: 0 0 0 196px;
@@ -120,7 +132,14 @@ body {
 #eleven,
 #twelve,
 #thirteen,
-#fourteen {
+#fourteen,
+#fifteen,
+#sixteen,
+#seventeen,
+#eighteen,
+#nineteen,
+#twenty,
+#twenty-one {
   display: grid;
   grid-template-columns: 85px;
   color: aliceblue;
@@ -142,4 +161,41 @@ body {
   border-radius: 5px;
   font-size: 7px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slid {
+  display: flex;
+  color: aliceblue;
+  margin: 10px 0 35px 0;
+  margin-left: 10px;
+}
+#slidone {
+  background-color: rgb(211, 123, 0);
+  border: 1px solid rgb(211, 123, 0);
+  color: aliceblue;
+  border-radius: 7px;
+  width: 20px;
+  font-size: 6px;
+  margin-left: 270px;
+  align-items: center;
+}
+#slidtwo,
+#slidthree,
+#slidfour,
+#slidfive,
+#slidsix {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 7px;
+  width: 20px;
+  height: 22px;
+  font-size: 6px;
+  margin-left: 3px;
+  align-items: center;
+}
+#slidseven,
+#slideight {
+  font-size: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 7px 0 0 15px;
 }
