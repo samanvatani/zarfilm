@@ -5,41 +5,143 @@
 }
 header {
   background-color: black;
-  height: 22px;
-  border-top: 1.5px solid rgb(211, 123, 0);
+  height: 38px;
+  border-top: 2px solid rgb(211, 123, 0);
   display: flex;
   font-size: 3px;
 }
 #button-one {
   color: aliceblue;
   background-color: rgb(131, 85, 0);
-  width: 40px;
-  height: 13px;
+  width: 64px;
+  height: 20px;
   border: 1px solid rgb(131, 85, 0);
   border-radius: 4px;
-  font-size: 4.5px;
-  margin: 3.5px 0px 4px 20px;
+  font-size: 7px;
+  margin: 6px 0px 4px 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .search {
-  margin: 3px 0px 4px 8px;
+  margin: 8px 0px 4px 8px;
 }
 .link {
   color: aliceblue;
   display: flex;
   font-size: 5px;
-  margin: 7px 28px 0px 0px;
+  margin: 10px 28px 0px 0px;
 }
 .one {
-  padding-left: 190px;
-  font-size: 4px;
+  padding-left: 320px;
+  font-size: 6.5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .two,
 .three,
 .fore,
 .five {
-  padding-left: 8px;
+  padding-left: 20px;
+  font-size: 6.5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+.searchbox,
+.divsearch1 {
+  display: flex;
+}
+#job {
+  color: aliceblue;
+  background-color: rgb(26, 26, 26);
+  border: 0.5px solid aliceblue;
+  border-radius: 4px;
+  font-size: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 120px;
+  height: 18px;
+  margin: 10px 0px 0 8px;
+}
+/*
+.divsearch2 {
+  background-color: rgb(45, 43, 43);
+  width: 140px;
+  height: 14px;
+  margin: 8px 0 0 186px;
+  border-radius: 3px;
+}*/
+.divsearch2 {
+  display: flex;
+  margin: 0 0 0 205px;
+}
+#searchbutton {
+  color: aliceblue;
+  background-color: rgb(211, 123, 0);
+  border-radius: 3px;
+  border: 1px solid rgb(211, 123, 0);
+  height: 18px;
+  width: 40px;
+
   font-size: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#serachcelebritty {
+  color: rgb(143, 145, 147);
+  background-color: rgb(45, 43, 43);
+  width: 180px;
+  height: 18px;
+  margin: 8px 0 0 0px;
+  border: 1px solid rgb(45, 43, 43);
+  border-radius: 3px;
+  font-size: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#but {
+  color: aliceblue;
+  background-color: rgb(211, 123, 0);
+  border: 1px solid rgb(211, 123, 0);
+  border-radius: 3px;
+  height: 18px;
+  font-size: 8px;
+  margin-top: 8.5px;
+  margin-left: 70px;
+}
+
+#content {
+  color: aliceblue;
+  display: grid;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 220px;
+  width: 95;
+  grid-gap: 6px;
+  grid-template-columns: minmax(100px, 150px);
+  grid-template-rows: minmax(100px, 120px);
+  margin: 15px 0 0 8px;
+}
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven {
+  display: grid;
+  grid-template-columns: 100px;
+  background-color: rgb(20, 25, 31);
+  border: 1px solid rgb(20, 25, 31);
+  border-radius: 5px;
+  justify-items: center;
+  align-items: center;
+  font-size: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#b {
+  color: aliceblue;
+  background-color: rgb(211, 123, 0);
+  height: 20px;
+  width: 90px;
+  border: 1px solid rgb(211, 123, 0);
+  border-radius: 5px;
+  font-size: 7px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
