@@ -5,48 +5,50 @@
 }
 header {
   background-color: black;
-  height: 38px;
-  border-top: 2px solid rgb(211, 123, 0);
+  height: 48px;
+  border-top: 3px solid rgb(211, 123, 0);
   display: flex;
   font-size: 3px;
 }
 #button-one {
   color: aliceblue;
   background-color: rgb(131, 85, 0);
-  width: 64px;
-  height: 20px;
+  width: 136px;
+  height: 38px;
   border: 1px solid rgb(131, 85, 0);
   border-radius: 4px;
-  font-size: 7px;
-  margin: 6px 0px 4px 20px;
+  font-size: 15px;
+  margin: 12px 0px 4px 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .search {
-  margin: 8px 0px 4px 8px;
+  margin: 15px 0px 4px 12px;
 }
 .link {
   color: aliceblue;
   display: flex;
-  font-size: 5px;
-  margin: 10px 28px 0px 0px;
+  font-size: 15px;
+  padding: 10px 5px 0 0;
 }
 .p-one {
-  padding-top: 3px;
-  padding-left: 290px;
-  font-size: 6.5px;
+  padding-top: 5px;
+  padding-left: 700px;
+  font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .p-two,
 .p-three,
-.p-fore,
-.p-five {
-  padding-top: 3px;
+.p-fore {
+  padding-top: 5px;
   padding-left: 20px;
-  font-size: 6.5px;
+  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
   background-color: rgb(0, 0, 0);
+}
+.searchbox {
+  margin-top: 20px;
 }
 .searchbox,
 .divsearch1 {
@@ -57,26 +59,30 @@ body {
   background-color: rgb(26, 26, 26);
   border: 0.5px solid aliceblue;
   border-radius: 4px;
-  font-size: 7px;
+  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 120px;
-  height: 18px;
-  margin: 10px 0px 0 8px;
+  width: 260px;
+  height: 28px;
+  margin: 25px 0px 0 25px;
+}
+.logo {
+  margin-left: 12px;
 }
 #top {
   color: aliceblue;
   background-color: rgb(0, 0, 0);
   border: 0.5px solid rgb(0, 0, 0);
   border-radius: 4px;
-  font-size: 6px;
+  font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 60px;
-  height: 14px;
-  margin-left: 14px;
+  width: 120px;
+  height: 24px;
+  margin-left: 18px;
+  margin-top: 5px;
 }
 .divsearch2 {
   display: flex;
-  margin: 0 0 0 196px;
+  margin: 12px 0 0 196px;
 }
 #searchbutton {
   color: aliceblue;
@@ -92,12 +98,12 @@ body {
 #serachcelebritty {
   color: rgb(143, 145, 147);
   background-color: rgb(45, 43, 43);
-  width: 180px;
-  height: 18px;
+  width: 270px;
+  height: 28px;
   margin: 8px 0 0 0px;
   border: 1px solid rgb(45, 43, 43);
   border-radius: 3px;
-  font-size: 6px;
+  font-size: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #but {
@@ -105,18 +111,19 @@ body {
   background-color: rgb(211, 123, 0);
   border: 1px solid rgb(211, 123, 0);
   border-radius: 3px;
-  height: 18px;
-  font-size: 8px;
+  width: 90px;
+  height: 28px;
+  font-size: 14px;
   margin-top: 8.5px;
-  margin-left: 70px;
+  margin-left: 350px;
 }
 #c {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-auto-rows: 200px;
+  grid-auto-rows: 390px;
   text-align: center;
-  grid-gap: 9px;
-  padding: 15px 8px 10px 8px;
+  grid-gap: 14px;
+  padding: 25px 25px 10px 25px;
 }
 
 #one,
@@ -148,33 +155,35 @@ body {
   border-radius: 5px;
   justify-items: center;
   align-items: center;
-  font-size: 7px;
+  font-size: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 3px 4px 6px 6px;
+  padding: 10px 4px 6px 55px;
 }
+
 #b {
   color: aliceblue;
   background-color: rgb(211, 123, 0);
-  height: 20px;
-  width: 90px;
+  height: 35px;
+  width: 170px;
   border: 1px solid rgb(211, 123, 0);
-  border-radius: 5px;
-  font-size: 7px;
+  border-radius: 9px;
+  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .slid {
   display: flex;
   color: aliceblue;
-  margin: 10px 0 35px 0;
-  margin-left: 10px;
+  margin: 35px 0 65px 0;
+  margin-left: 320px;
 }
 #slidone {
   background-color: rgb(211, 123, 0);
   border: 1px solid rgb(211, 123, 0);
   color: aliceblue;
-  border-radius: 7px;
-  width: 20px;
-  font-size: 6px;
+  border-radius: 12px;
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
   margin-left: 270px;
   align-items: center;
 }
@@ -187,15 +196,18 @@ body {
   background-color: rgb(0, 0, 0);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 7px;
-  width: 20px;
-  height: 22px;
-  font-size: 6px;
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
   margin-left: 3px;
   align-items: center;
 }
 #slidseven,
 #slideight {
-  font-size: 6px;
+  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 7px 0 0 15px;
+  margin: 7px 0 0 20px;
+}
+#slideight {
+  margin-left: 30px;
 }
