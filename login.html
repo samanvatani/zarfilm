@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="images.png" alt="لوگو" />
+      <span>زر<span class="orange">فیلم</span></span>
+    </div>
+    <div class="container">
+      <form class="login-form">
+        <div class="user">
+          <label for="user">نام کاربری یا پست الکترونیک یا شماره موبایل</label>
+          <input id="user" type="text" />
+        </div>
+        <div class="pass">
+          <div class="input-wrapper">
+            <label for="pass">رمز عبور شما</label>
+            <input type="password" id="pass" />
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+
+        <div class="captcha-group">
+          <label for="number">کد مقابل را وارد کنید</label>
+          <div class="captcha-input-row">
+            <input type="text" id="number" />
+            <div class="captcha-img">
+              <img
+                src="https://binande.info/captcha/?rnd=0.031382565275659635"
+                alt="کد امنیتی"
+              />
+            </div>
+          </div>
+        </div>
+
+        <button class="login-btn">ورود به پنل کاربری</button>
+        <div class="extra-link">
+          <a href="#"><i class="fas fa-lock"></i> فراموشی رمز عبور</a>
+        </div>
+        <button class="register-btn">عضویت در زر فیلم</button>
+      </form>
+    </div>
+    <footer>
+      <a href="#">صفحه نخست</a>
+      <a href="#">فیلم‌ها</a>
+      <a href="#">سریال‌ها</a>
+    </footer>
+    <div class="bottom_line"></div>
+  </body>
+</html>
